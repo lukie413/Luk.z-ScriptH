@@ -1,8 +1,8 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 local Window = Rayfield:CreateWindow({
-   Name = "Gojo is gay (0.1)",
+   Name = "Luk.z (0.1)",
    Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
-   LoadingTitle = "Thank you for using :) (UI TOGGLE = P)",
+   LoadingTitle = "Thank you for using :) (UI TOGGLE = P) BTW gojo is gay",
    LoadingSubtitle = "by Lukie",
    ShowText = "Rayfield", -- for mobile users to unhide rayfield, change if you'd like
    Theme = "AmberGlow", -- Check https://docs.sirius.menu/rayfield/configuration/themes
@@ -41,7 +41,7 @@ Rayfield:Notify({
    Duration = 8.5,
    Image = "moon",
 })
-local Tab = Window:CreateTab("Tab Example", "sword")
+local Tab = Window:CreateTab("Your bizzare adventure", "sword")
 local Section = Tab:CreateSection("YBA SCRIPTS")
 local Button = Tab:CreateButton({
    Name = "Era hub (KEY 1ST)",
