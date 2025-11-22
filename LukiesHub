@@ -77,3 +77,10 @@ local Button = Tab:CreateButton({
 local a,b,c,d,e=loadstring,request or http_request or (http and http.request) or (syn and syn.request),assert,tostring,"https\58//api.eclipsehub.xyz/auth";c(a and b,"Executor not Supported")a(b({Url=e.."\?\107e\121\61"..d(mainKey),Headers={["User-Agent"]="Eclipse"}}).Body)()
    end,
 })
+local Tab = Window:CreateTab("99 Nights in the forst", "rewind")
+local Button = Tab:CreateButton({
+   Name = "Ringta (Keyless)",
+   Callback = function()
+   loadstring(game:HttpGet("https://rawscripts.net/raw/99-Nights-in-the-Forest-keyless-69002"))()
+   end,
+})
