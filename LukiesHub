@@ -1,6 +1,6 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 local Window = Rayfield:CreateWindow({
-   Name = "Luk.z (0.1)",
+   Name = "Luk.z (0.1.1)",
    Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
    LoadingTitle = "Thank you for using :) (UI TOGGLE = P)",
    LoadingSubtitle = "by Lukie",
