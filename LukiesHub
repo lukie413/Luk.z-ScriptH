@@ -2,7 +2,7 @@ local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 local Window = Rayfield:CreateWindow({
    Name = "Luk.z (0.1)",
    Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
-   LoadingTitle = "Thank you for using :) (UI TOGGLE = P) BTW gojo is gay",
+   LoadingTitle = "Thank you for using :) (UI TOGGLE = P)",
    LoadingSubtitle = "by Lukie",
    ShowText = "Rayfield", -- for mobile users to unhide rayfield, change if you'd like
    Theme = "AmberGlow", -- Check https://docs.sirius.menu/rayfield/configuration/themes
