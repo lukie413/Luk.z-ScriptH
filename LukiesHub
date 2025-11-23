@@ -1,8 +1,8 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 local Window = Rayfield:CreateWindow({
-   Name = "Luk.z (0.1.1)",
+   Name = "Luk.z (0.1.2)",
    Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
-   LoadingTitle = "Thank you for using :) (UI TOGGLE = P)",
+   LoadingTitle = "Good afternoon",
    LoadingSubtitle = "by Lukie",
    ShowText = "Rayfield", -- for mobile users to unhide rayfield, change if you'd like
    Theme = "AmberGlow", -- Check https://docs.sirius.menu/rayfield/configuration/themes
@@ -41,6 +41,12 @@ Rayfield:Notify({
    Duration = 8.5,
    Image = "moon",
 })
+Rayfield:Notify({
+   Title = "Luk.z Said",
+   Content = "Dont know what the 1st, 2st ,3st mean? It means the best in ranking :)",
+   Duration = 10,
+   Image = "moon",
+})
 local Tab = Window:CreateTab("Your bizzare adventure", "sword")
 local Section = Tab:CreateSection("YBA SCRIPTS")
 local Button = Tab:CreateButton({
@@ -77,10 +83,73 @@ local Button = Tab:CreateButton({
 local a,b,c,d,e=loadstring,request or http_request or (http and http.request) or (syn and syn.request),assert,tostring,"https\58//api.eclipsehub.xyz/auth";c(a and b,"Executor not Supported")a(b({Url=e.."\?\107e\121\61"..d(mainKey),Headers={["User-Agent"]="Eclipse"}}).Body)()
    end,
 })
-local Tab = Window:CreateTab("99 Nights in the forst", "rewind")
+local Tab = Window:CreateTab("99 Nights in the forst", "Tree-Pine")
 local Button = Tab:CreateButton({
-   Name = "Ringta (Keyless)",
+   Name = "Ringta (Keyless 1ST)",
    Callback = function()
    loadstring(game:HttpGet("https://rawscripts.net/raw/99-Nights-in-the-Forest-keyless-69002"))()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "Voidware (Keyless 2TH)",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/VapeVoidware/VW-Add/main/loader.lua", true))()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "Cps hub (Keyless 3TH)",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Rx1m/CpsHub/refs/heads/main/Hub",true))()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "Foxname (Keyless 4TH)",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/caomod2077/Script/refs/heads/main/FoxnameHub.lua"))()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "Gec (Keyless 5TH)",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/GEC0/gec/refs/heads/main/Gec.Loader", true))()
+   end,
+})
+local Tab = Window:CreateTab("Steal a brainrot", "Circle-Dollar-Sign")
+local Section = Tab:CreateSection("This section copys the discord because the hub is detected in Steal a brainrot & it cant set as clip board!")
+local Button = Tab:CreateButton({
+   Name = "Ugly hub (Keyless 1ST)",
+   Callback = function()
+   setclipboard("https://discord.gg/5NsdUkrEA9")
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "Ugly fisher (Keyless)",
+   Callback = function()
+   setclipboard("https://discord.gg/5NsdUkrEA9")
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "Chilli hub (Keyless 2TH)",
+   Callback = function()
+   setclipboard("https://discord.gg/SGA6UXfr")
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "Lemon hub (Keyless 3TH)",
+   Callback = function()
+   setclipboard("https://discord.gg/lemonhub")
+   end,
+})
+local Tab = Window:CreateTab("Universal", "Layout-Grid")
+local Button = Tab:CreateButton({
+   Name = "Infinite yield FE",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "Orca hub",
+   Callback = function()
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/richie0866/orca/master/public/snapshot.lua"))()
    end,
 })
